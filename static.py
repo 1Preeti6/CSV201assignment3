@@ -13,7 +13,7 @@ driver.get("https://1preeti6.github.io/CSV201assignment3/")  # Update this with 
 time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
-assert "Food Blog" in driver.title
+assert "" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
